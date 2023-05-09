@@ -1,0 +1,230 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Kaoru Tsumita} \\ \vspace{1pt}
+    \small \href{mailto:k.tsumita01@gmail.com}{\underline{k.tsumita01@gmail.com}} $|$ 
+    \href{https://kaorut.com}{\underline{kaorut.com}} $|$ \href{https://linkedin.com/in/kaorutsumita}{\underline{linkedin.com/in/kaorutsumita}} $|$
+    \href{https://github.com/CarlSmoky}{\underline{github.com/CarlSmoky}}
+\end{center}
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Proficiencies}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Working Knowledge}{: JavaScript (ES6), React, Node, Express, PHP, SQL, MySQL, PostgreSQL, Styled-components, Sass, HTML5, CSS3} \\
+     \textbf{Exposed To}{: Linux(Ubuntu), AWS, TypeScript, Google Cloud Platform, Fly.io, Docker, MongoDB, NoSQL, Ruby, Ruby on Rails, Mocha and Chai, Jest, Cypress, StoryBook, Figma, Jira, Agile, SDLC, Accessibility} \\
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Full Stack Software Engineer}{April 2023 -- Present}
+      {Momo Gallery}{Toronto, Canada}
+      \resumeItemListStart
+        \resumeItem{Architected user-friendly custom artist portfolio platform, optimized to allow client to update site independently}
+        \resumeItem{Redesigned UI from old desktop-only Wordpress site to modern responsive design site}
+        \resumeItem{Iteratively improving the site through continuous incremental development, QA, and continuous integration}
+      \resumeItemListEnd
+      
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Web Developer(Volunteer)}{October 2019 – March 2020}
+      {Connexions}{Toronto, Canada}
+      \resumeItemListStart
+        \resumeItem{Analyzed legacy PHP codebase, troubleshooting issues, and providing effective solutions}
+        \resumeItem{\emph{MySQL, PHP, Linux(Ubuntu)}}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {IT Analyst}{June 2014 – May 2018}
+      {Tokyo University of Science}{Tokyo, Japan}
+      \resumeItemListStart
+        \resumeItem{Provided solutions and support during the system migration phase from the domestic on-premises system to SaaS (Software as a Service) cloud-based services such as Salesforce}
+        \resumeItem{Customized and implemented system automation and access management to maintain {\textbf{25,000 internal user accounts}}, reducing the maintenance workload {\textbf{by 85\%}}}
+        \resumeItem{Implemented new Salesforce reports providing automated dashboards and reports, reducing time spent on tracking grant expenses for researchers {\textbf{by 90\%}}}
+        \resumeItem{Reduced submission process time for internal digital approvals system {\textbf{from days to less than 10 minutes}} with JavaScript-based workflow digitization project, through automation of manual processes and reducing human errors with automated validation}
+        \resumeItem{Significantly improved user experience, reduced average cross-system login time from 90 seconds to 30 seconds by implementing in-house Single Sign On (SSO), supporting seamless login for three cloud system (Azure, Salesforce, Box), saving users an aggregate of{\textbf{~100 hrs/day}}}
+        \resumeItem{\emph{JavaScript, PHP, MySQL, Salesforce, box}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Little Libraries} $|$ \href{https://littlelibraries.netlify.app/}{\underline{Live Demo}} $|$ \href{https://github.com/CarlSmoky/little_libraries_client}{\underline{Client Repo}} $|$ \href{https://github.com/CarlSmoky/little_libraries}{\underline{Sever Repo}}}{November 2022}
+          \resumeItemListStart
+            \resumeItem{Collaboratively document “Little Libraries”with photos and geolocation data:  secure login, search, and multiple views}
+            \resumeItem{\emph{React, Node, Express, PostgreSQL, Google Maps API, Firebase Cloud Storage}}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Ace the Interview!} $|$ \href{https://acetheinterview.netlify.app/}{\underline{Live Demo}} $|$ \href{https://github.com/CarlSmoky/interview_client}{\underline{Client Repo}} $|$ \href{https://github.com/CarlSmoky/interview-server}{\underline{Sever Repo}} }{September 2022}
+          \resumeItemListStart
+            \resumeItem{Responsive and configurable app for job seekers to practice their interview skills optionally under time constraints}
+            \resumeItem{\emph{React, Node, Express, MongoDB}}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+
+
+ %-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lighthouse Labs, Full stack web development}{October 2021 -- January 2022}
+      {Diploma of Web Development}{Toronto, Canada}
+    \resumeSubheading
+      {Nihon Engineering College}{}
+      {Diploma Concert and Event Production}{Tokyo, Japan}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Certified Linux Administrator LPIC-1}{June 2021}
+      {Linux Professional Institute}{Toronto, Canada}
+     \resumeItemListStart
+        \resumeItem{}
+          {Linux system architecture, server and networking configuration, system security, and routine maintenance}
+     \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+
+\end{document}
